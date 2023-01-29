@@ -1,0 +1,23 @@
+{
+  "name": "web-individual-main",
+  "version": "1.0.0",
+  "description": "GitHub Link",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Jenny",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "morgan": "^1.10.0",
+    "properties-reader": "^2.2.0"
+  }
+}
